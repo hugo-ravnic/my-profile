@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	html {
+		scroll-behavior: smooth;
+	}
+	
+	body{
+		margin: 0;
+		background: rgb(245, 245, 245);
+		color: rgb(40, 62, 74);
+		
+	}
+
+	header{
+		width: 100vw;
+		display: block;
+		position: fixed;
+		
+	}
+	#header_title{
+		padding-left: 30px;
+		font-size: 1.2em;
+	}
+	
+	
+	
+	
+	.grid-menu {
+		display: grid;
+		height: 35px;
+		grid-template-columns: 300px auto 140px 140px 140px 150px;
+		grid-gap: 10px;
+		background-color: rgb(40, 62, 74);
+		padding: 3px;
+	}
+	
+	.grid-menu>li {text-align: center}
+	
+	/*-------------------Main content-----------------*/
+	
+	#main_content{
+		padding-top: 100px;
+	}
+	
+	
+	.box{
+		width: 900px;
+		margin: 0 auto;
+		background: white;
+		padding: 40px;
+		margin-bottom: 60px;
+
+	}
+	
+	.box:nth-child(1){display: flex;}
+	.box:nth-child(1)>div{padding: 0 25px;}
+	
+	
+	
+	
+	.div-title{
+		text-align: center;
+		margin: 25px 0 70px 0;
+	}
+	
+	
+	a {
+	  color: white;
+	  text-decoration: none;
+	  transition: color 0.3s ease;
+	}
+	a:hover {
+	  color: silver;
+	  text-decoration: none;
+	}
+	
+	
+	#profil_picture{
+		border-radius: 7px;
+	}
+	
+	
+	#aboutme button{
+		display: block;
+		margin: 0 auto;
+		background: rgb(0, 96, 151)
+	}
+	
+	
+	.formation{
+		display: grid;
+		grid-template-columns: 80px auto 100px;
+		grid-gap: 10px;
+	}
+	
+	.formation-info *{
+		margin: 0;
+	}
+	
+	#skills-wrap{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
+	}
+	
+	#skills-wrap>div{
+		padding: 0 50px
+	}
+	
+	#IT-wrap{
+		display: grid;
+		justify-content: space-evenly;
+  		grid-template-columns: 100px 100px;
+	}
+	
+	#IT-wrap *{
+		text-align: center;
+	}
+	
+	
+	.IT-language{
+		width: 100px;
+		margin-bottom: 20px;
+	}
+	
+	#follow-wrap{
+		display: grid;
+		justify-content: space-evenly;
+  		grid-template-columns: auto auto auto auto;
+		padding: 20px 100px 100px 100px;
+		
+	}
+	
+	/*----------------------general class-------------------*/
+	
+	.bg-ln{
+		background: rgb(40, 62, 74);
+	}
+	
